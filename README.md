@@ -78,5 +78,6 @@ https://commercejs.com/docs/community/creating-a-cart-with-react-js/
 https://commercejs.com/docs/guides/cart-react/#thats-it
 
 
-/pk_473550c7b1bebf703b2ad793b9f32bff3e5970f401b75
+<!-- /pk_473550c7b1bebf703b2ad793b9f32bff3e5970f401b75 -->
 
+https://www.youtube.com/watch?v=1DklrGoAxDE - video for learning how to build an ecommerce website via react
