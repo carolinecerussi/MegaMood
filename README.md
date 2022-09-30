@@ -63,7 +63,7 @@ September 30 2022
 8am: open project and continue elements to research for Reacft js effects
 9am: 
 10:30am: research locations for api content of art non profits you can donate to
-
+4:20pm : create firebase  data table for tshirts
 
 ## References for Research: 
 -For figuring out kendoReact components: https://www.telerik.com/kendo-react-ui/components/inputs/get-started
@@ -81,3 +81,5 @@ https://commercejs.com/docs/guides/cart-react/#thats-it
 <!-- /pk_473550c7b1bebf703b2ad793b9f32bff3e5970f401b75 -->
 
 https://www.youtube.com/watch?v=1DklrGoAxDE - video for learning how to build an ecommerce website via react
+
+
