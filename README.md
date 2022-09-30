@@ -59,6 +59,10 @@ September 28 2022
 9pm: Research input methods with kendo React UI library
 10pm : Research npm install for color palette library
 
+September 30 2022
+8am: open project and continue elements to research for Reacft js effects
+9am: 
+
 ## References for Research: 
 -For figuring out kendoReact components: https://www.telerik.com/kendo-react-ui/components/inputs/get-started
 
