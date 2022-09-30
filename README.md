@@ -70,6 +70,13 @@ September 30 2022
 
 -For installing color palette select :https://www.npmjs.com/package/react-color-palette#color
 
-- For installing shopping cart element for item checkout : https://www.smashingmagazine.com/2019/08/shopping-cart-html5-web-storage/
+ For installing shopping cart element for item checkout : https://www.smashingmagazine.com/2019/08/https://commercejs.com/docs/guides/cart-react/#thats-it
+&
 
--
+https://commercejs.com/docs/community/creating-a-cart-with-react-js/
+
+https://commercejs.com/docs/guides/cart-react/#thats-it
+
+
+/pk_473550c7b1bebf703b2ad793b9f32bff3e5970f401b75
+

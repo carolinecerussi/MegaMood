@@ -4,6 +4,8 @@ import Header from './Header';
 import Footer from './Footer';
 import TShirtDetail from './TShirtDetail';
 
+const [cart, setCart] = useState({});
+
 function App() {
 
   return (
