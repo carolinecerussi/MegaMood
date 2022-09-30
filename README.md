@@ -62,8 +62,14 @@ September 28 2022
 September 30 2022
 8am: open project and continue elements to research for Reacft js effects
 9am: 
+10:30am: research locations for api content of art non profits you can donate to
+
 
 ## References for Research: 
 -For figuring out kendoReact components: https://www.telerik.com/kendo-react-ui/components/inputs/get-started
 
 -For installing color palette select :https://www.npmjs.com/package/react-color-palette#color
+
+- For installing shopping cart element for item checkout : https://www.smashingmagazine.com/2019/08/shopping-cart-html5-web-storage/
+
+-
