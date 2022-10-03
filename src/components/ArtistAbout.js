@@ -21,5 +21,5 @@ ArtistAbout.propTypes = {
 	artist: PropTypes.object,
 	onClickingDonate: PropTypes.func,
 };
-
+//href="https://secure.givelively.org/donate/the-artist-co-op" target="_blank" class="Header-nav-item"><big>MAKE A <br> DONATION </big></a>//
 export default ArtistAbout;

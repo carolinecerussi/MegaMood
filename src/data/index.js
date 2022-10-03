@@ -1,3 +1,9 @@
+import React from "react";
+import TShirt from "../components/TShirt";
+import TShirtDetail from "../components/TShirtDetail";
+
+
+
 export const data = {
 	banner: [
 		{
@@ -21,27 +27,27 @@ export const data = {
 	],
 	iconTShirts: [
 		{
-			to:"/tshirt/detail",
+			to:"/tshirt/{id}",
 			// img: "TShirt1",
 			title: "TShirtOne Name",
 		},
 		{
-			to:"/tshirt/detail",
+			to:"/tshirt/{id}",
 			// img: "TShirt2",
 			title: "TShirtTwo Name",
 		},
 		{
-			to:"/tshirt/detail",
+			to:"/tshirt/{id}",
 			// img: "TShirt3",
 			title: "TShirtThree Name",
 		},
 		{
-			to:"/tshirt/detail",
+			to:"/tshirts/{id}",
 			// img: "TShirt4",
 			title: "TShirtFour Name",
 		},
 		{
-			to:"/tshirt/detail",
+			to:"/tshirts/{id}",
 			// img: "TShirt5",
 			title: "TShirtFive Name",
 		},
@@ -49,7 +55,7 @@ export const data = {
 	tShirts: [
 		{
 			id: 1,
-			link: "/tshirt/detail",
+			link: "/tshirt/detail/1",
 			name: "Equanimity In Displaced Spaces",
 			img: "/Users/carolinecerussi/Desktop/megamood/megamood/public/images/hazmatshirt.jpg",
 			price: 60,
@@ -58,7 +64,7 @@ export const data = {
 		},
 		{
 			id: 2,
-			link: "/tshirt/detail",
+			link: "/tshirt/detail/2",
 			name: "tshirt name goes here",
 			// img: "",
 			price: 60,
@@ -67,7 +73,7 @@ export const data = {
 		},
 		{
 			id: 3,
-			link: "/tshirt/detail",
+			link: "/tshirt/detail/3",
 			name: "tshirt name goes here",
 			// img: "",
 			price: 60,
@@ -76,7 +82,7 @@ export const data = {
 		},
 		{
 			id: 4,
-			link: "/tshirt/detail",
+			link: "/tshirt/detail/4",
 			name: "tshirt name goes here",
 			// img: "",
 			price: 60,
@@ -85,7 +91,7 @@ export const data = {
 		},
 		{
 			id: 5,
-			link: "/tshirt/detail",
+			link: "/tshirt/detail/5",
 			name: "tshirt name goes here",
 			// img: "",
 			price: 60,

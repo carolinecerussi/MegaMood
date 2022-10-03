@@ -2,22 +2,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 // import styled from 'styled-components';
+import TShirtDetail from "./TShirtDetail";
 
-
-const ClickedTShirt = (
-  <ul>
-		<li><h1>{props.name}</h1></li>
-    <li>Artist: {props.artist}</li>
-    <li>Price: {props.price} </li>
-    <li>Cherries</li>
-  </ul>
-);
+// const ClickedTShirt = (
+//   <ul>
+// 		<li><h1>{props.name}</h1></li>
+//     <li>Artist: {props.artist}</li>
+//     <li>Price: {props.price} </li>
+//     <li>Cherries</li>
+//   </ul>
+// );
 
 function TShirt(props) {
 	return (
-		<React.Fragment>
-		<ClickedTShirt />
-		</React.Fragment>
+		<TShirt onClick={() => props.whenTShirtClicked(props.id)}>
+		<TShirtDetail />
+		</TShirt>
 
 	)
 }

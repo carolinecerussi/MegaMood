@@ -1,4 +1,7 @@
 import { data } from "../../data";
+import React, { lazy, Component } from "react";
+
+
 const CardFeaturedTShirt = lazy(() =>
   import("../../components/card/CardFeaturedTShirt")
 );
@@ -14,11 +17,11 @@ const Details = lazy(() => import("../../components/others/Details"));
 //   import("../../components/others/ShippingReturns")
 // );
 // const SizeChart = lazy(() => import("../../components/others/SizeChart"));
-class TShirtDetailView extends Component {
-  constructor(props) {
-    super();
-    this.state = {};
-  }
+// class TShirtDetailView extends Component {
+//   constructor(props) {
+//     super();
+//     this.state = {};
+//   }
 
 
 
