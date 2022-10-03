@@ -29,6 +29,7 @@ https://commercejs.com/docs/guides/cart-react/#thats-it
 https://www.youtube.com/watch?v=1DklrGoAxDE - video for learning how to build an ecommerce website via react
 
 
+code reference for how to set up an ecommerce sight- https://github.com/bhaumikpatel/E-Commerce-Template.git
 
 ## API References :
 *Google Map  places API - used for locating local union resources near specific area.  (https://developers.google.com/maps/documentation/javascript/places)
