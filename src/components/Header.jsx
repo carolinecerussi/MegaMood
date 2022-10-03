@@ -33,7 +33,7 @@ function Header() {
     <MainHeader>
         <BrandWordmark>MegaMood</BrandWordmark>
           <MenuListItem>
-            <Link to='/cart'>Cart</Link>
+            <Link to='/artists'>Artists</Link>
             </MenuListItem>    
     </MainHeader>
   );

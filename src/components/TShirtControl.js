@@ -9,5 +9,17 @@ function TshirtControl() {
 	const [error, setError] = useState(null);
 
 
-	
+const handleClick = () => {
+	if (selectedTShirt !=null) {
+		setFormVisibleOnPage(false);
+		setSelectedTShirt(null);
+	} else {
+	setFormVisibleOnPage(!formVisibleOnPage);
+}
+}
+}
+
+const handleClickingDonate = async artist.id => {
+	await donate
+}
 }

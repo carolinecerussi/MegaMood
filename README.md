@@ -31,6 +31,12 @@ https://www.youtube.com/watch?v=1DklrGoAxDE - video for learning how to build an
 
 code reference for how to set up an ecommerce sight- https://github.com/bhaumikpatel/E-Commerce-Template.git
 
+reference for learning more about jsx https://reactjs.org/docs/introducing-jsx.html
+
+reference for learning how to handle redirect page on click in artist component 
+https://www.learnvern.com/reactjs-tutorial/redirect-component-in-react
+
+
 ## API References :
 *Google Map  places API - used for locating local union resources near specific area.  (https://developers.google.com/maps/documentation/javascript/places)
 *Telegram API for messaging - https://core.telegram.org/tdlib- encrypted messaging for custom direct messaging platform 
@@ -68,6 +74,8 @@ code reference for how to set up an ecommerce sight- https://github.com/bhaumikp
 ## October 2 2022 :
 10:30pm : start Tshirt control js file to start organizing website page and keep adding inputs to firebase
 
+## October 3 2022:
+after testing creating a firebase for my web app's info- changing it to index.js file within project and editing from there
 
 
 

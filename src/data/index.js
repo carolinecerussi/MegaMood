@@ -50,8 +50,8 @@ export const data = {
 		{
 			id: 1,
 			link: "/tshirt/detail",
-			name: "tshirt name goes here",
-			// img: "",
+			name: "Equanimity In Displaced Spaces",
+			img: "/Users/carolinecerussi/Desktop/megamood/megamood/public/images/hazmatshirt.jpg",
 			price: 60,
 			isNew: true,
 			artist: "artist name goes here"
