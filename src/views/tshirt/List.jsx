@@ -54,7 +54,6 @@ getTShirts = () => {
 	tShirts = tShirts.concat(tShirts);
 	return tShirts;
 }
-}
 
 
 render() {
@@ -157,9 +156,10 @@ render() {
 							sizing=""
 							alignment="justify-content-center"
 						/>
-					</div>
+						</div>
 				</div>
 			</div>
 		</React.Fragment>)
-							}
+}
+			
 export default TShirtListView;

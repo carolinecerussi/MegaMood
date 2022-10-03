@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-const Left_Page = "<-";
-const Right_Page = "->";
+const LEFT_PAGE = "<-";
+const RIGHT_PAGE = "->";
 
 const range = (from ,to, step = 1) => {
 	let i= from;
