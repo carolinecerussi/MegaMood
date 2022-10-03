@@ -22,14 +22,8 @@ class ProductDetailView extends Component {
 
 
 
-
-
-
 render() {
 	return (
-		<div className="container-fluid mt-3">
-			<div className="row">
-				<div className="col-md-8">
 					<div className="row mb-3">
 						<div className="col-md-5 text-center">
 							<img
@@ -59,16 +53,6 @@ render() {
 							</h1>
 							<span className="badge bg-success me-2">New</span>
 							<span className="badge bg-danger me-2">Hot</span>
-							<div className="mb-3">
-								<IconStarFill className="text-warning me-1" />
-								<IconStarFill className="text-warning me-1" />
-								<IconStarFill className="text-warning me-1" />
-								<IconStarFill className="text-warning me-1" />
-								<IconStarFill className="text-secondary me-1" />|{" "}
-								<span className="text-muted small">
-									42 ratings and 4 reviews
-								</span>
-							</div>
 							<dl className="row small mb-3">
 								<dt className="col-sm-3">Availability</dt>
 								<dd className="col-sm-9">In stock</dd>
@@ -156,11 +140,11 @@ render() {
 							<div className="mb-3">
 								<div className="d-inline float-start me-2">
 									<div className="input-group input-group-sm mw-140">
-										<button
+										{/* <button */}
 											className="btn btn-primary text-white"
 											type="button"
-										>
-											<FontAwesomeIcon icon={faMinus} />
+										
+											{/* <FontAwesomeIcon icon={faMinus} />
 										</button>
 										<input
 											type="text"
@@ -197,7 +181,7 @@ render() {
 									<FontAwesomeIcon icon={faHeart} />
 								</button>
 							</div>
-							<div>
+							<div> */}
 								<p className="fw-bold mb-2 small">
 									Product Highlights
 								</p>
@@ -208,7 +192,6 @@ render() {
 									<li>Etiam ullamcorper nibh eget faucibus dictum.</li>
 									<li>Cras consequat felis ut vulputate porttitor.</li>
 								</ul>
-							</div>
 						</div>
 					</div>
 					<div className="row">
@@ -235,28 +218,7 @@ render() {
 										aria-controls="nav-randr"
 										aria-selected="false"
 									>
-										Ratings & Reviews
-									</a>
-									<a
-										className="nav-link"
-										id="nav-faq-tab"
-										data-bs-toggle="tab"
-										href="#nav-faq"
-										role="tab"
-										aria-controls="nav-faq"
-										aria-selected="false"
-									>
-										Questions and Answers
-									</a>
-									<a
-										className="nav-link"
-										id="nav-ship-returns-tab"
-										data-bs-toggle="tab"
-										href="#nav-ship-returns"
-										role="tab"
-										aria-controls="nav-ship-returns"
-										aria-selected="false"
-									>
+					
 										Shipping & Returns
 									</a>
 									<a
@@ -283,36 +245,6 @@ render() {
 								</div>
 								<div
 									className="tab-pane fade"
-									id="nav-randr"
-									role="tabpanel"
-									aria-labelledby="nav-randr-tab"
-								>
-									{Array.from({ length: 5 }, (_, key) => (
-										<RatingsReviews key={key} />
-									))}
-								</div>
-								<div
-									className="tab-pane fade"
-									id="nav-faq"
-									role="tabpanel"
-									aria-labelledby="nav-faq-tab"
-								>
-									<dl>
-										{Array.from({ length: 5 }, (_, key) => (
-											<QuestionAnswer key={key} />
-										))}
-									</dl>
-								</div>
-								<div
-									className="tab-pane fade"
-									id="nav-ship-returns"
-									role="tabpanel"
-									aria-labelledby="nav-ship-returns-tab"
-								>
-									<ShippingReturns />
-								</div>
-								<div
-									className="tab-pane fade"
 									id="nav-size-chart"
 									role="tabpanel"
 									aria-labelledby="nav-size-chart-tab"
@@ -329,6 +261,5 @@ render() {
 				</div>
 			</div>
 		</div>
-	);
-}
-}
+	)
+}}

@@ -17,7 +17,7 @@ const CardTShirtList = lazy(() =>
 );
 
 
-class TshirtListView extends Component {
+class TShirtListView extends Component {
 	state = {
 		currentTShirts:[],
 		currentPage: null,
@@ -64,7 +64,7 @@ render() {
 				className="p-5 bg-primary bs-cover"
 				style={{
 					backgroundImage: "url(../../images/banner/50-Banner.webp)",
-				}}
+				}}	
 			>
 				<div className="container text-center">
 					<span className="display-5 px-3 bg-white rounded shadow">
@@ -160,8 +160,6 @@ render() {
 					</div>
 				</div>
 			</div>
-		</React.Fragment>
-	);
-}
-
+		</React.Fragment>)
+							}
 export default TShirtListView;
