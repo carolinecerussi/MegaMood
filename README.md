@@ -64,6 +64,10 @@ https://www.youtube.com/watch?v=1DklrGoAxDE - video for learning how to build an
 10:30am: research locations for api content of art non profits you can donate to
 4:20pm : create firebase  data table for tshirts
 
+## October 2 2022 :
+10:30pm : start Tshirt control js file to start organizing website page and keep adding inputs to firebase
+
+
 
 
 ### Making API calls with REACT using Fetch and Axios
