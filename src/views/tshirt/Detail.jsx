@@ -2,7 +2,7 @@ import { data } from "../../data";
 const CardFeaturedTShirt = lazy(() =>
   import("../../components/card/CardFeaturedTShirt")
 );
-const CardServices = lazy(() => import("../../components/card/CardServices"));
+// const CardServices = lazy(() => import("../../components/card/CardServices"));
 const Details = lazy(() => import("../../components/others/Details"));
 // const RatingsReviews = lazy(() =>
 //   import("../../components/others/RatingsReviews")
@@ -13,8 +13,8 @@ const Details = lazy(() => import("../../components/others/Details"));
 // const ShippingReturns = lazy(() =>
 //   import("../../components/others/ShippingReturns")
 // );
-const SizeChart = lazy(() => import("../../components/others/SizeChart"));
-class ProductDetailView extends Component {
+// const SizeChart = lazy(() => import("../../components/others/SizeChart"));
+class TShirtDetailView extends Component {
   constructor(props) {
     super();
     this.state = {};
@@ -249,7 +249,7 @@ render() {
 									role="tabpanel"
 									aria-labelledby="nav-size-chart-tab"
 								>
-									<SizeChart />
+									{/* <SizeChart /> */}
 								</div>
 							</div>
 						</div>
