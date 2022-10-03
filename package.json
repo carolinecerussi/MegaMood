@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@chec/commerce.js": "^2.8.0",
+    "@paypal/react-paypal-js": "^7.8.1",
     "@progress/kendo-drawing": "^1.17.1",
     "@progress/kendo-licensing": "^1.2.2",
     "@progress/kendo-react-inputs": "^5.7.0",
@@ -21,6 +22,7 @@
     "react-bootstrap": "^2.5.0",
     "react-color-palette": "^6.2.0",
     "react-dom": "^18.2.0",
+    "react-paypal-js": "^0.0.1-security",
     "react-redux": "^8.0.4",
     "react-scripts": "5.0.1",
     "redux": "^4.2.0",

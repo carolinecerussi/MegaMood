@@ -24,8 +24,6 @@ const Details = lazy(() => import("../../components/others/Details"));
 //   }
 
 
-
-render() {
 	return (
 					<div className="row mb-3">
 						<div className="col-md-5 text-center">

@@ -1,14 +1,14 @@
 import React, { lazy, Component } from "react";
 import { data } from "../../data";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faTh, faBars } from "@fortawesome/free-solid-svg-icons";
-const Paging = lazy(() => import("../../components/Paging"));
-const Breadcrumb = lazy(() => import("../../components/Breadcrumb"));
-const FilterArtist = lazy(() => import("../../components/filter/Artist"));
-const FilterSize = lazy(() => import("../../components/filter/Size"));
-const FilterColor = lazy(() => import("../../components/filter/Color"));
-const FilterClear = lazy(() => import("../../components/filter/Clear"));
-const CardServices = lazy(() => import("../../components/card/CardServices"));
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// // import { faTh, faBars } from "@fortawesome/free-solid-svg-icons";
+// const Paging = lazy(() => import("../../components/Paging"));
+// const Breadcrumb = lazy(() => import("../../components/Breadcrumb"));
+// const FilterArtist = lazy(() => import("../../components/filter/Artist"));
+// const FilterSize = lazy(() => import("../../components/filter/Size"));
+// const FilterColor = lazy(() => import("../../components/filter/Color"));
+// const FilterClear = lazy(() => import("../../components/filter/Clear"));
+// const CardServices = lazy(() => import("../../components/card/CardServices"));
 const CardTShirtGrid = lazy(() =>
   import("../../components/card/CardTShirtGrid")
 );

@@ -80,6 +80,8 @@ after testing creating a firebase for my web app's info- changing it to index.js
 - explore paypal donate button to try and link artist donate options under each artists work
 
 -experiment with givebutter api https://dashboard.givebutter.com/accounts/79013/home
+
+-grab api from paypal to create inscreen checkout abilites : https://developer.paypal.com/docs/checkout/advanced/integrate
 ### Making API calls with REACT using Fetch and Axios
 You need to have NodeJS installed on your local desktop and know-how HTTP works. If you want to practice and run this on your computer, you need to have these downloaded: 
 
