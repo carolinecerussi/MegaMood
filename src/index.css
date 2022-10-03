@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  padding: 10pt;
+  color: rgb(0, 0, 0);
+  line-height: 1;
+  font-family: karla;
+  background-color: white;
+
+
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+  /* opacity: 0.8; */
+  color: blue;
+}
+
+a:active,
+button:active {
+  opacity: 0.4;
+}
+
+
+button {
+  margin: 1rem;
+  text-align: center;
+  border: none;
+  font-family: gemini moon;
+  background-color: transparent;
+  font-size: 30pt;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20pt;
+  width:60;
+  text-align: center;
+  padding: 1rem;
+  max-width: 600px;
+
+}
+
+/* for edit and new form */
+
+input
+textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 83, 83);
+  text-align: left;
+}
+
