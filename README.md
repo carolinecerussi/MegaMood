@@ -113,5 +113,12 @@ npm install
 npm start
 
 
+## <h2>Contact</h2>
+<hr>
+<p>Caroline Cerussi: cerussicaroline@gmail.com</p>
+<hr>
+<p><span style="margin-right: 30px;"></span><a href="www.LinkedIn/in/caroline-cerussi"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a></p>
 
+## License 
+MIT
 

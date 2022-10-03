@@ -1,8 +1,3 @@
-import React from "react";
-import TShirt from "../components/TShirt";
-import TShirtDetail from "../components/TShirtDetail";
-
-
 
 export const data = {
 	banner: [

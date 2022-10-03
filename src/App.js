@@ -25,9 +25,9 @@ const initialOptions = {
   return (
     <React.Fragment>
       <Header />
-      <PayPalScriptProvider options={initialOptions}>
+      {/* <PayPalScriptProvider options={initialOptions}>
           <PayPalButtons />
-      </PayPalScriptProvider>
+      </PayPalScriptProvider> */}
       </React.Fragment> );
 }
 
