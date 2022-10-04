@@ -3,10 +3,9 @@ import React from 'react';
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
-// import TopMenu from "./components/TopMenu";
 import Header from "././components/Header";
 // import "./App.min.css";
-import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
+// import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 
 // const TShirtListView = lazy(() => import("./views/tshirt/List"));
 // const TShirtDetailView = lazy(() => import("./views/tshirt/Detail"));
@@ -14,17 +13,18 @@ import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 // const CartView = lazy(() => import("./views/cart/Cart"));
 // const [cart, setCart] = useState({});
 
-const initialOptions = {
-  "client-id": "test",
-  currency: "USD",
-  intent: "capture",
-  "data-client-token": "abc123xyz==",
-};
+// const initialOptions = {
+//   "client-id": "test",
+//   currency: "USD",
+//   intent: "capture",
+//   "data-client-token": "abc123xyz==",
+// };
 
  function App() {
   return (
     <React.Fragment>
       <Header />
+      <TShirtControl />
       {/* <PayPalScriptProvider options={initialOptions}>
           <PayPalButtons />
       </PayPalScriptProvider> */}
