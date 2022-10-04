@@ -2,19 +2,19 @@
 export const data = {
 	banner: [
 		{
-			to: "/link",
+			to: "/artists",
 			// img: "";
-			title: "FirstFeaturefPhoto",
-			description: "TShirt Detail",
+			title: "Banner artist photo thing",
+			description: "Banner image linking to artists list ",
 		},
 		{
-			to: "/link",
+			to: "/shirts",
 			// img: "";
 			title: "SecondFeaturefPhoto",
 			description: "TShirt Detail",
 		},
 		{
-			to: "/link",
+			to: "/about",
 			// img: "";
 			title: "ThirdFeaturefPhoto",
 			description: "TShirt Detail",
@@ -22,27 +22,27 @@ export const data = {
 	],
 	iconTShirts: [
 		{
-			to:"/tshirt/{id}",
-			// img: "TShirt1",
-			title: "TShirtOne Name",
+			to:"/tshirts/1",
+			 img:"/Users/carolinecerussi/Desktop/megamood/megamood/public/images/hazmatshirt.jpg",
+			title: "Equanimity In Displaced Spaces",
 		},
 		{
-			to:"/tshirt/{id}",
+			to:"/tshirts/2",
 			// img: "TShirt2",
 			title: "TShirtTwo Name",
 		},
 		{
-			to:"/tshirt/{id}",
+			to:"/tshirts/3",
 			// img: "TShirt3",
 			title: "TShirtThree Name",
 		},
 		{
-			to:"/tshirts/{id}",
+			to:"/tshirts/4",
 			// img: "TShirt4",
 			title: "TShirtFour Name",
 		},
 		{
-			to:"/tshirts/{id}",
+			to:"/tshirts/5",
 			// img: "TShirt5",
 			title: "TShirtFive Name",
 		},
@@ -50,25 +50,25 @@ export const data = {
 	tShirts: [
 		{
 			id: 1,
-			link: "/tshirt/detail/1",
+			link: "/tshirts/1",
 			name: "Equanimity In Displaced Spaces",
 			img: "/Users/carolinecerussi/Desktop/megamood/megamood/public/images/hazmatshirt.jpg",
 			price: 60,
 			isNew: true,
-			artist: "artist name goes here"
+			artist: "HasMood"
 		},
 		{
 			id: 2,
-			link: "/tshirt/detail/2",
+			link: "/tshirts/2",
 			name: "tshirt name goes here",
-			// img: "",
+			img: "",
 			price: 60,
 			isNew: true,
 			artist: "artist name goes here"
 		},
 		{
 			id: 3,
-			link: "/tshirt/detail/3",
+			link: "/tshirts/3",
 			name: "tshirt name goes here",
 			// img: "",
 			price: 60,
@@ -77,7 +77,7 @@ export const data = {
 		},
 		{
 			id: 4,
-			link: "/tshirt/detail/4",
+			link: "/tshirts/4",
 			name: "tshirt name goes here",
 			// img: "",
 			price: 60,
@@ -86,13 +86,12 @@ export const data = {
 		},
 		{
 			id: 5,
-			link: "/tshirt/detail/5",
+			link: "/tshirts/5",
 			name: "tshirt name goes here",
 			// img: "",
 			price: 60,
 			isNew: true,
 			artist: "artist name goes here"
 		},
-
 	],
 };
