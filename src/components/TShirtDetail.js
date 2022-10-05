@@ -1,7 +1,6 @@
 import * as React from "react";
 // import { ColorPicker, useColor } from "react-color-palette";
 import "react-color-palette/lib/css/styles.css";
-import Artist from "./Artist";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 // function TShirtDetail() {

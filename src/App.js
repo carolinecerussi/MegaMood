@@ -4,7 +4,7 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 import Header from "././components/Header";
-// import "./App.min.css";
+import data from  "./data/index";
 // import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 
 // const TShirtListView = lazy(() => import("./views/tshirt/List"));
@@ -24,7 +24,7 @@ import Header from "././components/Header";
   return (
     <React.Fragment>
       <Header />
-      <TShirtControl />
+      <TShirtShirt />
       {/* <PayPalScriptProvider options={initialOptions}>
           <PayPalButtons />
       </PayPalScriptProvider> */}

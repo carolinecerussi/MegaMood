@@ -36,6 +36,7 @@ reference for learning more about jsx https://reactjs.org/docs/introducing-jsx.h
 reference for learning how to handle redirect page on click in artist component 
 https://www.learnvern.com/reactjs-tutorial/redirect-component-in-react
 
+look up how to show data - https://reactjs.org/docs/thinking-in-react.html#step-5-add-inverse-data-flow
 
 ## API References :
 *Google Map  places API - used for locating local union resources near specific area.  (https://developers.google.com/maps/documentation/javascript/places)
