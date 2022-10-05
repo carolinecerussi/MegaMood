@@ -3,6 +3,9 @@
 
 
 ## Research Materials/ sources:
+- Rendering array of tShirt data
+https://stackoverflow.com/questions/41374572/how-to-render-an-array-of-objects-in-react
+
 -https://reactjs.org/docs/faq-ajax.html - How to use react techniques to grab api information
 
 --https://medium.com/bb-tutorials-and-thoughts/how-to-make-api-calls-in-react-applications-7758052bf69 - help write set up api instructions for readme file and good source for api process using REACT
@@ -83,6 +86,9 @@ after testing creating a firebase for my web app's info- changing it to index.js
 -experiment with givebutter api https://dashboard.givebutter.com/accounts/79013/home
 
 -grab api from paypal to create inscreen checkout abilites : https://developer.paypal.com/docs/checkout/advanced/integrate
+## October 4
+
+
 ### Making API calls with REACT using Fetch and Axios
 You need to have NodeJS installed on your local desktop and know-how HTTP works. If you want to practice and run this on your computer, you need to have these downloaded: 
 

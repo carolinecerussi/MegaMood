@@ -4,7 +4,7 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 import Header from "././components/Header";
-import data from  "./data/index";
+import TShirt from './components/TShirt';
 // import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 
 // const TShirtListView = lazy(() => import("./views/tshirt/List"));
@@ -24,7 +24,7 @@ import data from  "./data/index";
   return (
     <React.Fragment>
       <Header />
-      <TShirtShirt />
+      <TShirt />
       {/* <PayPalScriptProvider options={initialOptions}>
           <PayPalButtons />
       </PayPalScriptProvider> */}
