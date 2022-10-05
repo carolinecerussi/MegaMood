@@ -1,4 +1,5 @@
 import * as React from "react";
+import { tShirts } from "../data/index";
 // import { ColorPicker, useColor } from "react-color-palette";
 import "react-color-palette/lib/css/styles.css";
 import PropTypes from "prop-types";
@@ -39,29 +40,30 @@ const TShirtName = styled.h2`
 `;
 
 const TShirtArtist= styled.h2`
-background-color:transparent;
+background-color:red;
 font-weight:250;
 margin: 10pt;
 font-size: 20pt;
 font-family: karla;
 `;
 
+onClickingArtist() {
+  selectedArtist =  
+}
 
-function TShirtDetail(props) {
-  const { tShirt } = props;
+function TShirtDetail() {
+  const artist = tShirt.artist;
   return (    
   <TShirtObject>
-      <TShirtName>Order # {tShirt.name} <br/> {tShirt.price} </TShirtName>
-      <TShirtArtist>{tShirt.artist}</TShirtArtist>
-      <button onClick={() => onClickingArtist(tShirt.id)}>
-				{tShirt.artist} 
-				</button>
+      <h1>{tShirts.name}</h1> <br/>
+      <h1>{tShirts.price} </h1><br/>
+      <h1><button onClick={() => onClickingArtist({artist})}></button></h1>
 			</TShirtObject>
   );
 }
 
 TShirtDetail.propTypes = {
-  tShirt: PropTypes.object,
+  tShirts: PropTypes.object,
   onClickingArtist: PropTypes.func,
 };
 
