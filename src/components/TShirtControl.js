@@ -1,7 +1,8 @@
-//figure out a when tshirt image is clicked function to show tshirt detail
-
+// import NewTshirtOrder
+// import TShirtList from "./TShirtList";
+import TShirtDetail from "./TShirtDetail";
 import React from "react";
-import TShirt from "./TShirt";
+import data from "../data/index";
 
 function TShirtControl() {
   const [formVisibleOnPage, setFormVisibleOnPage] = useState(false);

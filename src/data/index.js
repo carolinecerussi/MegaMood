@@ -95,3 +95,53 @@ export const data = {
 		},
 	],
 };
+
+
+
+const TShirts = [
+  {
+    id: 1,
+    name: "First TShirt",
+    price: "$65",
+    img: {tShirtpic},
+    stocked: true,
+    quantity: {howMany},
+    artist: "HasMood"
+  },
+  {
+    id: 2,
+    name: "Second TShirt",
+    img: {tShirtpic},
+    price: "$65",
+    stocked: true,
+    quantity: {howMany},
+    artist: "CarolineC"
+  },
+  {
+    id: 3,
+    name: "Third TShirt",
+    img: {tShirtpic},
+    price: "$65",
+    stocked: true,
+    quantity: {howMany},
+    artist: "Finnley"
+  },
+  {
+    id:4,
+    name: "Fourth TShirt",
+    img: {tShirtpic},
+    price: "$65",
+    stocked: true,
+    quantity: {howMany},
+    artist: "Marco"
+  },
+  {
+    id: 5,
+    name: "Fifth TShirt",
+    img: {tShirtpic},
+    price: "$65",
+    stocked: true,
+    quantity: {howMany},
+    artist: "Us"
+  },
+];
