@@ -1,9 +1,7 @@
 
 import React from 'react';
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.js";
-import Header from "././components/Header";
+import Header from "./components/Header";
+import TShirtList from './components/TShirtList';
 import TShirt from './components/TShirt';
 // import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 
@@ -25,13 +23,10 @@ import TShirt from './components/TShirt';
     <React.Fragment>
       <Header />
       <TShirt />
-      {/* <PayPalScriptProvider options={initialOptions}>
-          <PayPalButtons />
-      </PayPalScriptProvider> */}
       </React.Fragment> );
 }
 
-export default App();
+export default App;
 
 
 

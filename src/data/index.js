@@ -148,16 +148,17 @@
 
 
 
-export const tShirts= 
-	[ {
-    id: 1,
+export const data = { 
+	tShirt: [
+		{
+		 id: 1,
     name: "First TShirt",
     price: "$65",
     img: "tShirtPic",
     stocked: true,
     quantity: "howMany",
     artist: "HasMood"
-  },
+	},
   {
     id: 2,
     name: "Second TShirt",
@@ -166,7 +167,7 @@ export const tShirts=
     stocked: true,
     quantity: "howMany",
     artist: "CarolineC"
-  },
+	},
   {
     id: 3,
     name: "Third TShirt",
@@ -175,7 +176,7 @@ export const tShirts=
     stocked: true,
     quantity: "howMany",
     artist: "Finnley"
-  },
+	},
   {
     id:4,
     name: "Fourth TShirt",
@@ -193,6 +194,7 @@ export const tShirts=
     stocked: true,
     quantity: "howMany",
     artist: "Us"
-	},
-	];
+	}
+]
+}
 
